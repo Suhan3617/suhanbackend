@@ -15,7 +15,7 @@ app.get('/twitter' , (req,res)=>{
 })
 
 app.get('/login' ,(req,res)=>{
-    res.send('<h1>Hey ! please login at suhan</h1>')
+    res.send('<h1>Hey ! please login as suhan it will be good if u do so </h1>')
 })
 
 app.listen(process.env.PORT, () => {
